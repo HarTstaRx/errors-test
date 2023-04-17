@@ -1,0 +1,29 @@
+@import '../shared/styles/colors';
+
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  margin-bottom: 1rem;
+  background-color: $color-brand-fore-back-ground;
+  color: $color-white;
+
+  &__left {
+    display: flex;
+
+    &__logo {
+      padding: 1rem;
+      font-size: 4rem;
+    }
+
+    &__title {
+      padding-left: 2rem;
+    }
+  }
+
+  &__right {
+    display: flex;
+    margin-right: 2rem;
+  }
+}

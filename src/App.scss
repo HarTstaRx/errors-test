@@ -1,0 +1,27 @@
+@import 'shared/styles/_reset.css';
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    display: block;
+    padding: 2rem;
+  }
+}
+
+.loader {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+}
